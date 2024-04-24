@@ -33,7 +33,7 @@ Package Managers help by streamlining a few important items:
 
 Homebrew is the MacOS 3rd party package manager located at: [https://brew.sh/](https://brew.sh/ "brew installer page"). It is available for Intel and M1 based Macs -- the workflow doesn't change.
 
-If you have a Mac - install brew and provide a screenshot of the output of the command: `brew --version`
+If you have a Mac - install brew and provide a screenshot of the output of the command: `brew --version`![brew](IMAGES/Homebrew.png)
 
 ### Windows 10 and 11
 
@@ -76,8 +76,8 @@ Open PowerShell 7 and issue the command: `ssh -V` and take a screenshot of the P
 
 For MacOS, newer versions use the Z shell.  This is due to Apple not using GPLv3+ software, which newer versions of BASH are licensed under.  This should be just fine and not require a new shell install.  If you want to experiment you can also install PowerShell 7 via Brew but it is not required.
 
-Open a terminal and type the commands: `zsh --version` and `ssh -V` and take a screenshot of the output
-
+Open a terminal and type the commands: `zsh --version` and `ssh -V` and take a screenshot of the output![zsh image](IMAGES/zsh.png)
+![ssh image](IMAGES/ssh.png)
 ### Installation of a Modern Terminal
 
 A Terminal is a way to run and manage multiple shell together, not unlike a web-browser, in a single managed window.  You will spend much time on in a shell during your career, the Terminal is a huge helper.
@@ -86,7 +86,7 @@ On Windows, Microsoft provides a [Windows Terminal](https://www.microsoft.com/en
 
 Open the Windows Terminal and select from the drop down arrow, the ABOUT tab, and take a screenshot of the version output
 
-On MacOS, there is a terminal called [iterm2](https://iterm2.com/ "MacOS shell terminal")
+On MacOS, there is a terminal called [iterm2](https://iterm2.com/ "MacOS shell terminal")![ITERM](IMAGES/ITERM.png)
 
 Open the iterm2 Terminal and from the File > About section take a screenshot of the version output
 
@@ -101,13 +101,13 @@ We will be installing an text editor or and IDE for all of our coding and config
 * [Adobe Brackets](http://brackets.io/ "Adobe Brackets Install")
   * Cross Platform development tool from Adobe
 
-Take a screenshot from the ABOUT tab in your IDE to show the installed version
+Take a screenshot from the ABOUT tab in your IDE to show the installed version!![vs code](IMAGES/VSCode.png)
 
 ### Install Git Client for Version Control
 
 Version Control is vital to modern software development and we will be using our Package Manger to install the Git Client for our respective operating systems. **Note**, this is different from the GitHub Desktop tool, which we will not be using this semester.
 
-Take a screenshot of the output of the command: ```git --version```
+Take a screenshot of the output of the command: ```git --version```![git ](IMAGES/gitversion.png)
 
 #### Configure Git Client
 
@@ -133,17 +133,17 @@ Take a screenshot of the VirtualBox > Help > About VirtualBox output or from the
 
 For those using an M1 Mac we will require a [Pro License from Parallels](https://www.parallels.com/products/desktop/pro/ "Pro License form parallels.com website").
 
-Take a screenshot of Parallels Desktop > About Parallels Desktop or from the terminal : `prlctl --version` (Works on any version of Parallels)
+Take a screenshot of Parallels Desktop > About Parallels Desktop or from the terminal : `prlctl --version` (Works on any version of Parallels)![parllel](IMAGES/parallel.png)
 
-**Note:** that you can use Parallels on an Intel MacOS as well -- you would need to make sure you have the Pro edition installed and the SDK installed as well.
-
+**Note:** that you can use Parallels on an Intel MacOS as well -- you would need to make sure you have the Pro edition installed and the SDK installed as well.!
+![v box](IMAGES/Vbox.png)
 ### Install Vagrant
 
 Vagrant is a tool from [HashiCorp](https://hashicorp.com "HashiCorp website").  This tool is used to abstract away the VirtualBox interface and provide direct commandline access, increasing ease of use.  *Vagrant provides easy to configure, reproducible, and portable work environments built on top of industry-standard technology and controlled by a single consistent workflow to help maximize the productivity and flexibility of you and your team.*
 
 Using your package manager, install the latest version of [Vagrant](https://vagrantup.com "Vagrant download site").  If you have a version 2.2.x you will be ok.  Note, if using Linux, do not use the built in package manager as these versions of Vagrant and Packer are too old and unmaintained.  
 
-Take a screenshot of the output of the command: ```vagrant --version```
+Take a screenshot of the output of the command: ```vagrant --version```![vagrant](IMAGES/Vagrant.png)
 
 ### Install Packer.io
 
@@ -151,14 +151,14 @@ Packer is another automation tool from HashiCorp.  Whereas Vagrant was for runni
 
 Using a package manager, install the latest version of [Packer](https://packer.io "Packer install site").  If you have a version > 1.6.x you will be ok. Note, if on Linux, do not use the built in package manager as these versions of Vagrant and Packer are too old and unmaintained.  
 
-Take a screenshot of the output of the command: ```packer --version```
+Take a screenshot of the output of the command: ```packer --version```![packer](IMAGES/Packerversion.png)
 
 ### Oh-My-Git Tutorial
 
 Download the proper [Oh My Git! tutorial](https://ohmygit.org/ "webpage for oh my git") the program runs as a self contained executable on your system (Windows Mac or Linux).
 
-Complete the tutorial and take screenshots of the completed sections (may need to take a few shots as the there are many sections).
-
+Complete the tutorial and take screenshots of the completed sections (may need to take a few shots as the there are many sections).![ohmygit](IMAGES/ohmygit.png)
+![ohmugit1](IMAGES/ohmygit1.png)
 This Git tutorial is a good refresher for those who need it and a great introduction for those new to Version Control and want to learn it. You can leave the last section out, **Sandbox**, it is an open area for you to experiment in and no real way to "complete it."
 
 ## Tooling Assignment Part II
@@ -172,8 +172,8 @@ In this step you will clone the Private GitHub repo you have been provided with 
 The document will include:
 
 * h1 with your name
-  * a picture of you
-  * a picture of something that describes you
+  * a picture of you![me](IMAGES/me.jpeg)
+  * a picture of something that describes you![myself](IMAGES/myself.png)
 * h2 Where are you from?
   * Tell us where you are from
 * h2 What was your first computing device?
